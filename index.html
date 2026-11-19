@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yoga Manual: Beginner Roadmap</title><style>
+*{box-sizing:border-box;margin:0}
+body{font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#4a3022;background:#fff6ec linear-gradient(180deg,#fff2e2,#ffe6d2 35%,#fff6ec 80%);min-height:100vh}
+header{padding:48px 24px 6px;text-align:center}
+h1{font:300 clamp(2.1rem,8vw,3.3rem)/1.1 Georgia,serif;letter-spacing:.02em;color:#c4491f}
+header p{color:#9b6a4e;letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;margin-top:10px}
+nav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:2px;padding:14px 6px;background:linear-gradient(#fff2e2f0,#fff2e200)}
+.pill,nav button{font:inherit;font-size:.9rem;border:0;background:none;color:#9b6a4e;padding:9px 16px;border-radius:99px;cursor:pointer;transition:.3s}
+.on{background:linear-gradient(135deg,#ffcfa8,#ffb98a);color:#7a2e10;box-shadow:0 4px 14px #e8643c33}
+main{max-width:980px;margin:0 auto;padding:4px 22px 30px}
+h2{font:300 1.9rem Georgia,serif;color:#c4491f;margin:42px 0 12px}
+h3{font:400 1.3rem Georgia,serif;color:#5a2d18;margin:22px 0 8px}
+h4{font:400 1.1rem Georgia,serif;color:#c4491f;margin:30px 0 6px}
+small{font:400 .8rem system-ui;color:#9b6a4e;margin-left:8px}
+p,li{margin:5px 0}ol,ul{padding-left:22px}b{color:#6b3015}
+.tab{display:none}.tab.on{display:block;background:none;box-shadow:none;padding:0;border-radius:0;color:inherit}
+.gr{display:grid;gap:70px 56px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin-top:30px}
+.fw{display:flex;justify-content:center;max-width:420px;margin:0 auto 6px;padding:8px;background:radial-gradient(closest-side,#ffe2c9,#ffe2c900)}
+.fg{flex:1;min-width:0;max-height:200px;overflow:visible}
+.br g{animation:b 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes b{50%{transform:scale(1.04)}}
+@media(prefers-reduced-motion:reduce){.br g{animation:none}}
+.bd{display:inline-block;padding:3px 11px;margin-right:6px;border-radius:99px;font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;background:#ffe0c2;color:#8a3a14}.ad{background:#ffd27a}
+.tg{margin:10px 0 6px}.tg span,.ch{display:inline-block;background:#ffefdf;color:#8a5a3e;font-size:.78rem;padding:3px 10px;border-radius:99px;margin:0 6px 6px 0}
+.ch{font-size:.88rem;padding:5px 13px;background:#ffe9d6;color:#5a2d18}sup{color:#c4491f;margin-left:3px;font-size:.7rem}
+.wh{font-size:.85rem;color:#9b6a4e}
+table{width:100%;border-collapse:separate;border-spacing:0 5px;font-size:.9rem;margin:8px 0}
+td,th{padding:8px 10px;text-align:left;font-weight:400;background:#fff1e3}
+td:first-child{border-radius:12px 0 0 12px;font-weight:600;color:#c4491f;width:44px}td:last-child{border-radius:0 12px 12px 0;text-align:center;width:50px}
+th{background:none;color:#9b6a4e;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:0 10px}
+.sf{font-size:.85rem;color:#8a3a14;background:linear-gradient(90deg,#ffe9d6,#ffe9d600);padding:8px 12px;border-radius:10px;margin:10px 0}
+input[type=checkbox]{appearance:none;-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:#ffe0c8;cursor:pointer;vertical-align:middle;display:inline-grid;place-content:center;transition:.25s;margin:0}
+input:checked{background:linear-gradient(135deg,#f7a35c,#e8643c);box-shadow:0 3px 10px #e8643c55}
+input:checked::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.ck{display:inline-flex;gap:9px;align-items:center;font-size:.9rem;cursor:pointer;margin-top:4px}
+.bar{height:8px;border-radius:9px;background:#ffe3cf;overflow:hidden;margin-top:6px}.bar i{display:block;height:100%;background:linear-gradient(90deg,#ffc27a,#ee6a3c);border-radius:9px;transition:width .5s}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:26px;margin:18px 0;font-size:.9rem;color:#8a5a3e}.big b{font:300 2.5rem Georgia,serif;color:#c4491f}
+.r{display:grid;grid-template-columns:1fr 56px 40px 40px 40px;align-items:center;padding:7px 10px;border-radius:12px;font-size:.92rem}.r.l{grid-template-columns:1fr 40px}
+.r:nth-child(odd){background:#fff1e3}.r input{justify-self:center}.rh{background:none!important;font-size:.7rem;color:#9b6a4e;text-align:center}.rh b{text-align:left;font-size:.95rem;color:#c4491f;font-weight:400}
+footer{text-align:center;font-size:.8rem;color:#9b6a4e;padding:14px 24px 44px;max-width:640px;margin:auto}
+/* Today tab */
+.tn{display:flex;gap:14px;flex-wrap:wrap;margin:10px 0 4px;color:#9b6a4e;font-size:.9rem}
+.tn select{border:0;background:#ffe9d6;color:#5a2d18;border-radius:99px;padding:8px 14px;font:inherit}
+.ts{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:14px 0}.ts b{font:300 2rem Georgia,serif;color:#c4491f;min-width:76px}
+.ti{display:flex;gap:20px;flex-wrap:wrap;align-items:center;padding:18px 20px;border-radius:18px}.tl .ti:nth-child(odd){background:#fff1e3}
+.ti .fw{max-width:170px;margin:0;flex:0 0 170px}.tf{flex:1;min-width:230px}.tf h3{margin:0 0 6px}
+.tm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0}.tr{font-size:.95rem;color:#8a3a14;min-width:150px}.tm .bar{flex-basis:100%}
+.tsm{padding:16px 20px;border-radius:18px;background:linear-gradient(135deg,#ffe9d6,#ffd9bd);margin:18px 0}
+.ar{display:flex;align-items:center;gap:18px;margin:8px 0 0}
+.ar .ck,.ar .lk{margin:0;padding:0;min-height:36px;display:inline-flex;align-items:center;line-height:1}
+.wk{display:flex;align-items:center;gap:18px;margin:6px 0 12px}
+.wk b{font:300 2.6rem/1 Georgia,serif;color:#c4491f;display:block;text-align:center;min-width:64px}
+.wk small{display:block;margin:4px 0 0;text-align:center;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+.wk button{width:42px;height:42px;border-radius:50%;border:0;background:#ffe9d6;color:#c4491f;font-size:1.4rem;cursor:pointer;transition:.25s}.wk button:hover{background:#ffcfa8}
+.dp{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 18px}
+.dy{width:48px;padding:8px 0 7px;border:0;border-radius:99px;background:#ffefdf;color:#8a5a3e;cursor:pointer;font:inherit;display:flex;flex-direction:column;align-items:center;gap:2px;transition:.25s}
+.dy span{font-size:.9rem;font-weight:600;line-height:1}.dy i{font-style:normal;font-size:.68rem;opacity:.75}
+.dy.now{box-shadow:0 0 0 2px #ffb98a inset}
+.dy.sel{background:linear-gradient(135deg,#f7a35c,#e8643c);color:#fff;box-shadow:0 4px 14px #e8643c55}
+.sp{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.sp[hidden],.nv2[hidden]{display:none}
+.sp button{width:14px;height:14px;border-radius:50%;border:0;background:#ffd9bd;padding:0;cursor:pointer}
+.sp .d{background:#f7a35c}.sp .c{background:#e8643c;box-shadow:0 0 0 4px #ffb98a66}
+.nv2{display:flex;justify-content:space-between;gap:12px;margin:16px 0}.nv2 .pill{padding:12px 22px}.nv2 .pill:disabled{opacity:.4;cursor:default}
+.rw{display:flex;gap:30px;flex-wrap:wrap;align-items:center;margin:4px 0 8px}
+.wk{gap:8px;margin:0}.wk b{font-size:2rem;min-width:62px}.wk button{width:36px;height:36px;font-size:1.2rem}
+.nw{margin:2px 0 8px;font-size:.9rem;color:#8a5a3e}
+.ts{margin:8px 0 4px}.ts .lk{margin-left:auto}
+.pg{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.pg .sp{margin:6px 0}.pg .wh{font-size:.82rem}
+.rw{display:flex;gap:10px;flex-wrap:nowrap;margin:4px 0 10px}
+.st{flex:1;min-width:0;display:flex;align-items:center;justify-content:space-between;background:#ffefdf;border-radius:99px;padding:3px}
+.st button{width:32px;height:32px;border-radius:50%;border:0;background:#fff8f0;color:#c4491f;font-size:1.1rem;cursor:pointer;flex:none}.st button:hover{background:#ffcfa8}
+.st span{font:600 .98rem Georgia,serif;color:#8a3a14;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 4px}
+.foc .ti{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:6px 22px;align-items:center;padding:18px 20px;border-radius:22px;background:#fff1e3;text-align:left}
+.foc .ti .fw{max-width:none;width:100%;flex:none;margin:0;padding:6px;background:radial-gradient(closest-side,#ffd9bd,#ffd9bd00)}
+.foc .ti .fw svg{max-height:230px}
+.foc .tf{min-width:0}.foc .tf h3{font-size:1.35rem;margin:0 0 6px}
+.ti ol{flex-basis:100%;grid-column:1/-1;margin:6px 0 0;padding-left:22px}
+.tm{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.tm .pill{width:100%;padding:10px 0;text-align:center}
+.tm .tr{grid-column:1/-1;text-align:center;min-width:0}
+.tm .tr.c{grid-column:auto;background:#ffefdf;border-radius:99px;padding:10px 0;font-weight:600}
+.tm .bar{grid-column:1/-1}
+.ti .ar{justify-content:space-between}
+@media(max-width:380px){.foc .ti{grid-template-columns:1fr}}
+.rw{margin:2px 0 10px}
+.nw{margin:0 0 12px;padding:9px 16px;background:#fff1e3;border-radius:14px;font-size:.88rem;line-height:1.3}
+.foc .ti{padding:18px 20px}
+.ti .tf>:last-child{margin-bottom:0}
+.ti .tf h3{margin:0 0 6px}
+.ti .sf{margin:8px 0 0}
+.ti .ar{margin:6px 0 0}.ti .ar .ck,.ti .ar .lk{min-height:30px}
+.ti ol{background:#fff8f0;border-radius:14px;margin:10px 0 0;padding:12px 18px 12px 38px;list-style-position:outside}
+.ti ol li{margin:3px 0;line-height:1.4}
+.rw{margin:2px 0 16px}
+.nw{margin:-4px 0 16px}
+.ti ol{background:linear-gradient(135deg,#ffe4cb,#ffdcc0);color:#5a2d18;box-shadow:0 2px 10px #e8643c14}
+.ti ol li::marker{color:#e8643c;font-weight:600}
+/* Home search + compare */
+#th .hh{min-height:46vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px 0 10px;transition:min-height .4s}
+#th.on2 .hh{min-height:0;padding:10px 0 4px}
+#th .hh h2{margin:0 0 6px}#th .hh p{color:#9b6a4e;margin-bottom:22px;font-size:.92rem}
+.hb{display:flex;width:100%;max-width:620px;background:#fffaf4;border-radius:99px;padding:6px 6px 6px 22px;align-items:center;box-shadow:0 8px 30px #e8643c26}
+.hb input{flex:1;min-width:0;border:0;outline:0;background:none;font:inherit;font-size:1rem;color:#4a3022}
+.hb button{width:44px;height:44px;border-radius:50%;border:0;background:linear-gradient(135deg,#f7a35c,#e8643c);color:#fff;font-size:1.1rem;cursor:pointer;box-shadow:0 4px 14px #e8643c55}
+.sg{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:20px;max-width:620px}
+.sg .ch{border:0;cursor:pointer;font:inherit;font-size:.88rem;margin:0;transition:.25s}.sg .ch:hover{background:#ffcfa8;color:#7a2e10}
+.ht{display:flex;justify-content:space-between;align-items:center;font-size:.85rem;color:#9b6a4e;margin-top:14px}
+.ht select{border:0;background:#ffe9d6;color:#5a2d18;border-radius:99px;padding:7px 14px;font:inherit}
+.ht[hidden],.hs2[hidden]{display:none}
+#th .gr{margin-top:22px}
+.dots{letter-spacing:2px;color:#e8643c}.dots i{font-style:normal;color:#ffd9bd}
+.lk{border:0;background:none;color:#c4491f;font:inherit;font-size:.9rem;cursor:pointer;margin-left:14px;padding:6px 0}
+.dt{margin-top:8px;font-size:.9rem}
+.hs2{position:sticky;bottom:14px;margin:26px auto 0;max-width:520px;padding:10px 12px 10px 20px;background:linear-gradient(135deg,#ffe9d6,#ffd9bd);border-radius:99px;display:flex;justify-content:space-between;align-items:center;font-size:.9rem;color:#5a2d18;box-shadow:0 8px 26px #e8643c33;z-index:4}
+.hs2 button{border:0;border-radius:99px;padding:9px 18px;font:inherit;cursor:pointer;background:none;color:#9b6a4e}
+.hs2 .go{background:linear-gradient(135deg,#f7a35c,#e8643c);color:#fff}
+.cm{overflow-x:auto;margin:30px 0}.cm table{min-width:520px}
+.cm td,.cm td:first-child,.cm td:last-child{text-align:left;width:auto;font-weight:400;color:#4a3022;border-radius:0;vertical-align:top;min-width:110px}
+.cm td.best{font-weight:600;color:#c4491f}
+.mb{display:inline-block;height:7px;border-radius:4px;background:linear-gradient(90deg,#ffc27a,#ee6a3c);vertical-align:middle;margin-right:7px}
+@media print{nav,.no{display:none}.tab{display:block!important}#th,#tt{display:none!important}body{background:#fff}.c{break-inside:avoid}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs><marker id="ah" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4 0 8z" fill="#E8643C"/></marker></defs></svg>
+<header><h1>Yoga Manual</h1><p>Beginner Roadmap · 26 weeks</p></header>
+<nav id="nv"></nav>
+<main><section class="tab" id="th"></section><section class="tab" id="tt"></section><section class="tab" id="t0"></section><section class="tab" id="t1"></section><section class="tab" id="t2"></section><section class="tab" id="t3"></section></main>
+<footer>Not medical advice. See a doctor first if you have injuries or health conditions.</footer>
+<script>
+const $=i=>document.getElementById(i);
+let s={};try{s=JSON.parse(localStorage.getItem('ymb')||'{}')}catch(e){}
+const sv=()=>{try{localStorage.setItem('ymb',JSON.stringify(s))}catch(e){}};
+const TL={1:'T1 · Core',2:'T2',3:'T3',4:'T4',B:'Breath',X:'Extra'},BR=['Cat-cow','Sun salutation','Nadi shodhana','Savasana'],
+PS=['Warrior II','Tree','Low lunge','Eagle','Seated twist','Pigeon','Wind-relieving','Side plank'];
+// row: name, start wk, tier, add-on, benefits, levels ('=' = hold only), where, steps, safety, frames [H,N,P,E1,H1,E2,H2,K1,F1,K2,F2 (+arrows x1,y1,x2,y2)]
+const R=[
+['Cat-cow',1,'1',0,'spine mobility, posture, digestion, calm','10 slow rounds|10 synced to breath + thread-the-needle|add opposite arm/leg extension','warm-up, every session','Hands under shoulders, knees under hips|Inhale: belly drops, chest and tailbone lift|Exhale: round the spine, chin to chest|L2 adds thread-the-needle; L3 adds opposite arm/leg reach','',[[90,36,78,40,42,40,79,56,80,72,82,56,83,72,42,72,22,72,45,72,25,72,60,28,60,16,60,52,60,64]]],
+['Sun salutation',1,'1',0,'strength, flexibility, posture, energy, calm','half x3|Surya A x3, knees-down chaturanga|A x3 + B x2, full chaturanga','every session','Half salutation: arms up, forward fold, halfway lift, fold, rise (no plank or chaturanga)|One movement per breath|L2: Surya A with knees-down chaturanga; L3: A + B, full chaturanga|Bend knees in folds, keep the spine long','Rise slowly if dizzy; soften knees in folds.',[[50,14,50,22,50,44,56,10,58,0,53,10,55,0,50,58,50,72,53,58,53,72,66,18,66,4],[73,60,66,52,46,42,67,63,67,72,69,63,70,72,46,58,46,72,49,58,49,72,56,40,66,46],[71,43,62,44,40,44,62,53,62,62,64,53,64,62,40,58,40,72,43,58,43,72,74,50,86,50]]],
+['Downward dog',1,'1',0,'strength, flexibility, posture, circulation','knees bent 5 breaths|straight legs 8|heels down 10','Set A','From all fours, tuck toes, lift hips up and back|Press hands wide, lengthen the spine|Head between arms, bend knees as needed|Hips high; heels reach toward the floor','',[[70,53,74,46,44,24,80,59,86,72,83,59,89,72,38,50,22,72,41,50,25,72,52,20,52,8]]],
+['Warrior II',1,'1',0,'strength, balance, hips, posture','short stance 5 breaths|30 s|1 min + reverse warrior','Set A','Step feet wide, front toes forward, back foot turned in|Bend front knee over the ankle|Arms level, gaze over the front hand|Repeat on the other side','Keep the front knee over the ankle, not past the toes.',[[60,12,60,20,60,42,80,20,100,20,40,20,20,20,84,58,84,72,48,57,36,72,104,20,114,20]]],
+['Chair',1,'1',0,'strength, balance, circulation, posture','half depth 5 breaths|30 s|1 min + twist','Set A','Feet together or hip-width, arms up|Bend knees, sit hips back|Weight in heels, ribs in|Press into the feet to rise','Knees: track over toes; go shallower if they ache.',[[50,17,48,28,38,48,57,18,66,8,59,19,68,9,60,58,52,72,63,58,55,72,30,40,30,54]]],
+['Bridge',1,'1',0,'glute/back strength, posture, hip/chest flexibility, circulation','5 breaths|10 breaths, hands clasped|one-leg','Set A','Lie back, knees bent, feet hip-width|Press feet down and lift the hips|L2: roll shoulders under, clasp hands|Lower slowly, one vertebra at a time','Lower back: keep it long, not pinched. Neck: keep it relaxed, don\'t turn the head.',[[14,69,24,68,48,52,36,70,50,71,38,71,53,71,68,46,72,72,71,46,76,72,46,40,46,28]]],
+['Malasana',1,'1',0,'hips, digestion/bowels, leg strength, posture','heels raised/block 30 s|heels down 1 min|2 min','Set C','Feet wider than hips, toes turned out|Squat low; heels raised or on a block|Palms together, elbows press knees|Keep the chest tall','Knees: follow the toes; sit on a block if they complain.',[[48,29,46,38,42,62,56,52,54,44,58,52,55,45,64,56,50,72,67,56,53,72,30,56,30,68]]],
+['Seated twist',1,'2',0,'digestion, spine mobility','5 breaths/side|8|revolved variations','Set C','Sit tall, legs crossed or one knee up|Inhale lengthen, exhale twist from the belly|One hand on the knee, the other behind you|Switch sides','Twist from the ribs, not the neck; never force.',[[60,28,60,38,60,60,50,52,40,64,72,52,78,64,36,66,62,70,84,66,58,70,46,18,74,18]]],
+["Child's pose",1,'2',0,'calm, back relief, recovery','=5-8 breaths','Set B','Kneel, big toes touching, knees wide|Sit hips back toward the heels|Fold forward, arms long or by your sides|Breathe into the back','Pad under knees or hips if tight.',[[64,68,56,64,30,62,74,70,92,72,76,71,95,72,52,72,24,72,55,72,27,72,40,50,30,50]]],
+['Nadi shodhana',1,'B',0,'calm, focus','2 min|3 min|5 min + add kapalabhati','every session','Sit tall; right hand to the nose|Close right nostril, inhale left|Close left, exhale right; inhale right|Alternate smoothly and silently','L3 kapalabhati: short, gentle rounds; stop if dizzy. Skip if pregnant or with high BP or heart issues.',[[60,20,60,30,60,58,78,44,63,23,44,46,36,62,34,66,62,70,86,66,58,70]]],
+['Savasana',1,'4',0,'calm, sleep, recovery','3 min|5 min|5-10 min','every session','Lie on your back, feet fall open, arms away|Close eyes; soften jaw and belly|Let the breath be natural|Roll to a side before rising','',[[11,68,21,69,47,70,33,71,45,72,35,72,47,73,68,70,90,71,68,71,90,73]]],
+['Cobra',4,'1',0,'back strength, posture, digestion, energy','baby cobra 3 reps|full 5 breaths|upward dog in flow','Set B','Lie face down, hands under shoulders|Press feet down, lift the chest on an inhale|Elbows bent, shoulders away from ears|Lower on the exhale','Lower back: lift only as far as comfortable, legs active.',[[84,54,76,60,52,70,68,67,78,71,70,68,80,71,30,71,8,71,30,72,8,72,76,50,76,40]]],
+['Plank',4,'3',0,'core, arms, posture','knees down 20 s|full 30 s|45-60 s','Set A','Hands under shoulders, body in one line|Press the floor away, ribs in|Gaze down, breathe steadily|L1: keep knees down','Wrists: spread fingers; drop to the knees if they hurt.',[[89,41,80,46,54,59,80,59,80,72,83,59,83,72,30,71,12,62,33,71,15,62,54,52,54,44]]],
+['Tree',4,'2',0,'balance, focus','20 s foot on calf|40 s foot on thigh|1 min eyes closed','Set A','Stand tall, weight on one foot|Sole on calf or thigh, never on the knee|Hands at chest, eyes on a fixed point|Switch sides','Never press the foot into the knee; use a wall.',[[50,14,50,22,50,44,41,31,50,33,59,31,50,33,50,58,50,72,66,54,51,63]]],
+['Low lunge',4,'2',0,'hip flexors, flexibility, posture','30 s/side with blocks|45 s|1 min + quad stretch','Set B','From all fours, step one foot between the hands|Back knee down, front knee over the ankle|Hands on blocks, lift the chest|Sink hips forward; switch sides','',[[66,32,60,40,52,62,70,54,70,68,72,55,73,68,76,58,76,72,30,72,10,72,36,58,46,58]]],
+['Forward fold',4,'2',0,'hamstrings, calm','knees bent 5 breaths|straighter 8|seated fold 10','Set B','Feet hip-width, hinge from the hips|Bend the knees, belly toward the thighs|Let head and arms hang|Rise with a flat back','Hinge at the hips; keep knees soft.',[[73,60,66,52,46,42,68,63,68,72,70,63,71,72,56,58,46,72,58,58,49,72,74,46,74,56]]],
+['Wind-relieving',4,'3',1,'gas, bloating, bowels','5 breaths/side|8|10','morning after water + Set C','Lie on your back|Hug one knee toward the chest|Keep the other leg long on the floor|Breathe; switch sides','',[[12,68,22,69,46,70,28,59,40,57,31,61,43,59,34,54,50,60,68,71,90,71,52,50,44,55]]],
+['Vajrasana',4,'3',1,'post-meal digestion','=5 min after meals','after meals','Kneel and sit back on the heels|Spine tall, hands on thighs|Breathe calmly|Use a cushion if needed','Knees: cushion between heels and thighs; come out if painful.',[[41,30,40,40,40,64,46,52,56,66,48,53,58,67,60,72,34,72,62,72,37,72]]],
+['Legs-up-wall',5,'3',1,'circulation, tired legs, sleep, calm','3 min|5 min|8-10 min','end of Set C','Sit sideways at the wall, swing legs up|Hips near the wall, back flat|Arms relaxed, eyes closed|Bend knees and roll to a side to exit','',[[13,70,24,70,54,70,36,71,48,72,38,72,50,73,56,48,58,26,58,48,60,26]]],
+['Boat',6,'2',1,'deep abs, hip flexors','bent knees 3x5 breaths|legs lifted 3x5|straight legs 3x8','A after chair','Sit, knees bent, lean back slightly|Lift the shins parallel to the floor|Arms reach forward, chest open|Hold, rest, repeat','Keep the spine long; bend the knees to protect the lower back.',[[30,34,34,44,46,66,48,45,62,44,49,47,63,46,64,48,84,48,66,50,86,50]]],
+['Locust',7,'2',1,'back extensors, glutes, posture','legs only 3 reps|full 5 breaths|arm reach 8 breaths','B after cobra','Lie face down, arms by your sides|Lift the legs from the glutes|L2: lift the chest too|Lower with control','Neck long, gaze down; stop if the lower back pinches.',[[86,66,76,68,52,68,64,70,50,71,66,71,52,72,32,64,10,58,33,66,11,60,10,50,10,40]]],
+['Pigeon',8,'3',1,'deep hip rotators, glutes','reclined figure-4 5 breaths/side|on block 30 s|1 min + fold forward','B after low lunge','L1 reclined: lie back, feet on the floor|Cross one ankle over the opposite knee|Draw the legs toward the chest, flex the foot|Switch sides','Knees: keep the top foot flexed; ease off if the knee pinches.',[[12,68,22,69,44,70,38,58,54,58,40,60,56,60,68,50,61,49,60,48,72,72]]],
+['Butterfly',9,'3',1,'groin, inner thighs, knee-friendly','1 min|2 min|fold forward 2 min','Set C','Sit tall, soles of the feet together|Hold feet or ankles|Let the knees drop; don\'t push|L3: fold forward from the hips','',[[60,26,60,36,60,62,46,52,57,69,74,52,63,69,34,66,58,70,86,66,62,70,28,56,28,66,92,56,92,66]]],
+['Fish',10,'3',1,'upper back/chest opening','block-supported 5 breaths|8 breaths',"B before child's pose",'Lie back with a block under the upper back|Arms by your sides; chest lifts|Neck long, chin neutral|Roll off to a side to exit','Neck: keep the head resting or chin slightly tucked; never drop it back.',[[17,69,28,62,54,70,42,67,56,72,44,68,58,73,76,70,98,71,76,71,98,72,28,54,28,44]]],
+['Side plank',11,'X',1,'obliques, lateral stability','knees down 15 s/side|full 30 s','A after plank','Support hand or forearm under the shoulder|L1: lower knee down, top leg stacked|Lift the hips into a long line|Switch sides','Wrist or shoulder sore? Use the forearm.',[[25,44,34,48,60,58,33,60,32,72,34,36,34,24,82,72,100,68,84,68,102,64,60,50,60,40]]],
+['Eagle',12,'3',1,'shoulder release, balance','20 s/side','A after tree','Bend knees, cross one thigh over the other|Hook the foot behind the calf if you can|Cross arms, lift the elbows|Switch sides','Use a wall; skip the leg wrap if knees complain.',[[50,14,50,22,50,44,48,32,54,20,52,32,46,20,50,58,50,72,55,55,46,66]]]
+];
+const P=R.map(r=>({n:r[0],w:r[1],t:r[2],a:r[3],b:r[4],L:r[5][0]=='='?[]:r[5].split('|'),h:r[5][0]=='='?r[5].slice(1):'',wh:r[6],st:r[7],sf:r[8]||'Ease off if you feel pain, strain or shaking.',f:r[9]}));
+const fig=(f,vb,b)=>{const q=i=>f[i]+' '+f[i+1],L=(...a)=>'M'+a.map(q).join('L');
+let r=`<svg class="fg${b?' br':''}" viewBox="${vb}" fill="none" stroke="#E8643C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><g><path opacity=".4" d="${L(2,10,12)+L(4,18,20)}"/><path d="${L(2,4)+L(2,6,8)+L(4,14,16)}"/><circle cx="${f[0]}" cy="${f[1]}" r="5"/>`;
+for(let i=22;i<f.length;i+=4)r+=`<path d="M${f[i]} ${f[i+1]}L${f[i+2]} ${f[i+3]}" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#ah)" opacity=".85"/>`;
+return r+'</g></svg>'};
+const cb=(i,k)=>`<input type="checkbox" data-k="${i}${k}"${s[i+''+k]?' checked':''}>`;
+const SS={A:['Plank','Side plank','Downward dog','Warrior II','Chair','Boat','Tree','Eagle','Bridge'],B:['Cobra','Locust','Low lunge','Pigeon','Forward fold','Fish',"Child's pose"],C:['Malasana','Seated twist','Wind-relieving','Butterfly','Legs-up-wall']};
+const ch=n=>{const p=P.find(x=>x.n==n);return `<span class="ch">${n}${p.a?`<sup>wk${p.w}${n=='Eagle'?'+':''}</sup>`:''}</span>`};
+
+$('t0').innerHTML=`<h2>Start here</h2>
+<p>A 26-week roadmap for a beginner with some past experience. Goals: energy, a calm mind, posture, flexibility, digestion/bowels and circulation.</p>
+<h3>How to use</h3><ol><li>Practise Mon–Sat (6 days), mornings if possible. Sunday: rest or gentle stretching.</li><li>Weeks 1–3: the 20-min base routine, no sets. From week 4: cat-cow → sun salutation → one Set (A, B or C) → nadi shodhana → savasana.</li><li>Add one specialist pose per week (see Schedule). Include an add-on only from its start week; before that, do just the base poses.</li><li>Tick Learned and level boxes on Poses or Progress. They stay in sync and save in this browser.</li></ol>
+<h3>Level-up test</h3><p>No fixed week per level. Each pose levels up on its own clock once it passes the test: <b>3 consecutive sessions with steady breath and no pain or shaking.</b></p><ul><li>Per level: learn the new version 1–2 weeks (tick Learned at L1), adapt 2–4 weeks, then pass the test. Typically ~5–6 weeks per level.</li><li>Level up one pose at a time. Step back a level if pain or shaking appears.</li><li>Check your form once with a video or an instructor.</li></ul>
+<h3>Reading breaths and sets</h3><ul><li>One breath = one inhale + one exhale. “3 x 5 breaths” = hold 5 breaths, rest, repeat 3 times.</li><li>Per side (do both): ${PS.join(', ')}.</li><li>Sets A, B and C rotate through the week and show their final composition; add-ons are marked with their start week.</li></ul>
+<h3>Safety</h3><ul><li>Practise on an empty stomach (2–3 hrs after meals). Vajrasana is the only pose done after meals.</li><li>Watch knees (malasana, chair, pigeon), wrists (plank), lower back (cobra, bridge) and neck (fish).</li><li>Kapalabhati (nadi shodhana L3 only): short, gentle rounds; stop if dizzy. Skip if pregnant or with high BP or heart issues.</li><li>Never force pain.</li></ul>
+<h3>Tier legend</h3><p><span class="bd">T1</span> 4+ benefits (core) · <span class="bd">T2</span> 3 benefits · <span class="bd">T3</span> 2 benefits · <span class="bd">T4</span> 1 benefit</p><p><span class="bd ad">Add-on</span> specialist pose added by week · <span class="bd">Extra</span> side plank, untiered · <span class="bd">Breath</span> nadi shodhana</p><p><small style="margin:0">Tier counts use 7 broad categories (strength, flexibility, posture, digestion, circulation/energy, calm, balance); benefit tags are finer, so a pose may show more tags than its tier number.</small></p>`;
+
+$('t1').innerHTML=`<h2>Schedule</h2>
+<h3>Weeks 1–3 <small>6 days/week · 20 min · no sets · same sequence every day</small></h3>
+<table><tr><th>Order<th>Pose<th>Hold</tr>${[['Cat-cow','1 min'],['Half salutation','×3'],['Downward dog','5 breaths'],['Warrior II','5 breaths/side'],['Chair','5 breaths'],['Malasana','30 s'],['Seated twist','5 breaths/side'],['Bridge','5 breaths'],["Child's pose",'5–8 breaths'],['Nadi shodhana','2 min'],['Savasana','3 min']].map(([n,h],i)=>`<tr><td>${i+1}<td style="text-align:left;font-weight:400;color:inherit;border-radius:0">${n}<td style="width:130px;text-align:left">${h}</tr>`).join('')}</table>
+<h3>From week 4 <small>6 days/week · set system</small></h3><p>Every session: Cat-cow → Sun salutation → <b>SET</b> → Nadi shodhana → Savasana</p>
+<div>${[['Mon','Set A'],['Tue','Set B'],['Wed','Set C'],['Thu','Set A'],['Fri','Set B'],['Sat','Set C'],['Sun','Rest']].map(([d,x])=>`<span class="ch"><b>${d}</b> ${x}</span>`).join('')}</div>
+${[['A','Mon, Thu','strength, core, balance'],['B','Tue, Fri','back, hips, posture'],['C','Wed, Sat','digestion, recovery, circulation']].map(([k,d,g])=>`<h3>Set ${k}<small>${d} · ${g}</small></h3><table><tr><th>Pose<th>From</tr>${SS[k].map(n=>{const p=P.find(x=>x.n==n);return `<tr><td style="width:auto">${n}${n=='Legs-up-wall'?'<small>always last in set</small>':''}<td style="width:76px">Wk ${p.w}${n=='Eagle'?'+':''}</tr>`}).join('')}</table>`).join('')}
+<p>Include an add-on only from its start week; before that, do just the base poses in the set.</p>
+<h3>Daily habits</h3><table><tr><th>When<th>Habit</tr><tr><td style="width:auto">Morning, after water<td style="width:auto;text-align:left">Wind-relieving · 5 breaths/side</tr><tr><td style="width:auto">After meals<td style="width:auto;text-align:left">Vajrasana · 5 min (the only post-meal pose)</tr></table>
+<h3>Add-on rollout <small>one per week</small></h3><table><tr><th>Week<th colspan=2>Add</tr>${[4,5,6,7,8,9,10,11,12].map(w=>`<tr><td style="width:70px">Wk ${w}<td colspan=2 style="text-align:left;border-radius:0 12px 12px 0;width:auto">${P.filter(p=>p.a&&p.w==w).map(p=>p.n).join(' + ')}${w==4?'<br><small style="margin:0">Also first used in sets: cobra, plank, tree, low lunge, forward fold</small>':''}${w==12?' (optional, wk12+)':''}`).join('')}</table><p>Each add-on starts at its first listed version.</p>
+<h3>Session length</h3><table>${[['L1','~22–25 min'],['L2','~28–30 min'],['L3','~35 min'],['Over time?','Cut 1–2 salutation rounds']].map(([a,b])=>`<tr><td style="width:110px">${a}<td style="width:auto;text-align:left">${b}</tr>`).join('')}</table>
+<h3>Timeline <small>each pose on its own clock</small></h3><p>Week-1 poses finish L3 ~wk17 · week-4 poses ~wk21 · add-ons finish ~wk26.</p><p>Sunday: rest or gentle stretching.</p>`;
+
+$('t2').innerHTML=`<h2>Poses</h2><p>26 poses, L1 version drawn; dashed arrows show movement. Boxes sync with Progress.</p><div class="gr">${P.map((p,i)=>`<article class="c"><div class="fw">${p.f.map(f=>fig(f,p.f.length>1?'20 -4 70 80':'0 0 120 80',BR.includes(p.n))).join('')}</div>
+<h3>${p.n}<small>wk ${p.w}${p.n=='Eagle'?'+ · optional':''}</small></h3><div><span class="bd">${TL[p.t].split(' ')[0]}</span>${p.a?'<span class="bd ad">Add-on</span>':''}</div>
+<div class="tg">${p.b.split(', ').map(x=>`<span>${x}</span>`).join('')}</div><ol>${p.st.split('|').map(x=>`<li>${x}</li>`).join('')}</ol>
+<p class="wh">Where: ${p.wh}</p>${p.L.length?`<table><tr><th>Level<th>${PS.includes(p.n)?'Practice (each side)':'Practice'}<th>Done</tr>${p.L.map((x,j)=>`<tr><td>L${j+1}<td>${x}<td>${cb(i,j+1)}</tr>`).join('')}</table>`:`<p><b>Hold:</b> ${p.h}</p>`}
+<p class="sf">${p.sf}</p><label class="ck">${cb(i,'L')} Learned</label></article>`).join('')}</div>`;
+
+(function(){
+// name:[difficulty,strength,flexibility,balance,calm,care] (1-5, author's judgment)
+const D={'Cat-cow':[1,1,3,1,3,'wrists'],'Sun salutation':[3,3,3,2,2,'wrists, low back'],'Downward dog':[2,3,3,1,2,'wrists, hamstrings'],'Warrior II':[3,4,2,3,1,'knees'],'Chair':[3,4,1,3,1,'knees'],'Bridge':[2,3,2,1,2,'low back, neck'],'Malasana':[3,3,4,2,1,'knees'],'Seated twist':[1,1,3,1,3,'spine'],"Child's pose":[1,1,2,1,5,'knees, hips'],'Nadi shodhana':[1,1,1,1,5,'dizziness (kapalabhati)'],'Savasana':[1,1,1,1,5,'none'],'Cobra':[2,3,3,1,2,'low back'],'Plank':[3,4,1,2,1,'wrists'],'Tree':[2,2,1,4,3,'ankles'],'Low lunge':[3,2,4,2,2,'knees'],'Forward fold':[2,1,4,1,4,'hamstrings'],'Wind-relieving':[1,1,2,1,3,'none'],'Vajrasana':[1,1,2,1,4,'knees'],'Legs-up-wall':[1,1,2,1,5,'none'],'Boat':[4,5,1,3,1,'low back'],'Locust':[3,3,2,1,1,'low back, neck'],'Pigeon':[4,1,5,2,2,'knees, hips'],'Butterfly':[2,1,4,1,3,'knees, groin'],'Fish':[3,2,3,1,3,'neck'],'Side plank':[4,5,1,4,1,'wrists, shoulder'],'Eagle':[4,2,3,4,2,'knees']};
+const DL=['','Very easy','Easy','Moderate','Hard','Very hard'];
+const H=$('th');
+H.innerHTML=`<div class="hh"><h2>What would you like to practice?</h2><p>Search a pose, benefit or goal, then tick a few to compare.</p>
+<div class="hb"><input id="hq" type="search" placeholder="Try posture, digestion, balance, easy…" autocomplete="off"><button id="hgo" aria-label="Search"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="1.7"/><path d="M12 6.5V15M7.5 10.5L12 8l4.5 2.5M12 15v7M12 15l5 2.5-5 2"/></svg></button></div>
+<div class="sg" id="hc"></div></div>
+<div class="ht" id="ht" hidden><span id="hn"></span><label>Sort <select id="hs"><option value="rel">Best match</option><option value="easy">Easiest first</option><option value="hard">Hardest first</option><option value="wk">Start week</option></select></label></div>
+<div class="gr" id="hr"></div><div class="hs2" id="hsel" hidden></div><div id="hcm"></div>`;
+let sel=[],op={};
+const dots=n=>'<span class="dots">'+'●'.repeat(n)+'<i>'+'●'.repeat(5-n)+'</i></span>';
+const hay=p=>[p.n,p.b,TL[p.t],'week '+p.w,p.a?'add-on addon':'base',p.wh,p.st,D[p.n][5],D[p.n][0]<=2?'easy beginner gentle':D[p.n][0]==3?'moderate medium':'hard advanced challenging',PS.includes(p.n)?'per side':''].join(' ').toLowerCase();
+function find(q){q=q.trim().toLowerCase();if(!q)return[];
+ if(q=='all')return P.map((p,i)=>({i,s:0}));
+ const tk=q.split(/\s+/);
+ return P.map((p,i)=>{const h=hay(p);let s=0;for(const t of tk){if(p.n.toLowerCase().includes(t))s+=5;else if(h.includes(t))s+=1;else return null}return{i,s}}).filter(Boolean)}
+function sorted(r){const m=$('hs').value,d=x=>D[P[x.i].n][0];
+ return r.sort((a,b)=>m=='easy'?d(a)-d(b):m=='hard'?d(b)-d(a):m=='wk'?P[a.i].w-P[b.i].w:b.s-a.s||P[a.i].w-P[b.i].w)}
+function card(i){const p=P[i],d=D[p.n],a=document.createElement('article');a.className='c';
+ a.innerHTML=`<div class="fw">${p.f.map(f=>fig(f,p.f.length>1?'20 -4 70 80':'0 0 120 80',BR.includes(p.n))).join('')}</div>
+<h3>${p.n}<small>wk ${p.w}${p.n=='Eagle'?'+ · optional':''}</small></h3>
+<div><span class="bd">${TL[p.t].split(' ')[0]}</span>${p.a?'<span class="bd ad">Add-on</span>':''}${PS.includes(p.n)?'<span class="bd">per side</span>':''}</div>
+<p class="wh">${dots(d[0])} ${DL[d[0]]}</p>
+<div class="tg">${p.b.split(', ').map(x=>`<span>${x}</span>`).join('')}</div>
+<div class="ar"><label class="ck"><input type="checkbox" ${sel.includes(i)?'checked':''}> Compare</label><button class="lk">${op[i]?'Hide details':'Details'}</button></div>
+<div class="dt" ${op[i]?'':'hidden'}><p class="wh"><b>How to</b></p><ol>${p.st.split('|').map(x=>`<li>${x}</li>`).join('')}</ol>${p.L.length?`<p class="wh"><b>Levels${PS.includes(p.n)?' (each side)':''}</b></p><ol>${p.L.map(x=>`<li>${x}</li>`).join('')}</ol>`:`<p><b>Hold:</b> ${p.h}</p>`}<p class="sf">${p.sf}</p><p class="wh">Where: ${p.wh}</p></div>`;
+ a.querySelector('input').onchange=e=>{
+  if(e.target.checked){if(sel.length>=4){e.target.checked=false;alert('Compare up to 4 poses.');return}sel.push(i)}else sel=sel.filter(x=>x!=i);
+  bar();cmp()};
+ a.querySelector('.lk').onclick=e=>{op[i]=!op[i];a.querySelector('.dt').hidden=!op[i];e.target.textContent=op[i]?'Hide details':'Details'};
+ return a}
+function run(){const q=$('hq').value,r=sorted(find(q));
+ H.classList.toggle('on2',!!q.trim());$('ht').hidden=!q.trim();
+ $('hn').textContent=r.length+' result'+(r.length==1?'':'s');
+ const R=$('hr');R.innerHTML='';
+ if(q.trim()&&!r.length){R.innerHTML='<p class="wh">No match. Try a benefit (posture, digestion), a level (easy, hard) or a pose name.</p>';return}
+ r.forEach(x=>R.appendChild(card(x.i)))}
+function bar(){const b=$('hsel');b.hidden=!sel.length;
+ b.innerHTML=`<span>${sel.length} selected${sel.length<2?' · pick at least 2':''}</span><span><button class="clr">Clear</button><button class="go" ${sel.length<2?'disabled style="opacity:.5"':''}>Compare</button></span>`;
+ b.querySelector('.clr').onclick=()=>{sel=[];bar();cmp();run()};
+ b.querySelector('.go').onclick=()=>{cmp();$('hcm').scrollIntoView({behavior:'smooth'})}}
+function cmp(){const C=$('hcm');if(sel.length<2){C.innerHTML='';return}
+ const ps=sel.map(i=>P[i]),v=f=>ps.map(f);
+ const best=(f,hi)=>{const a=v(f),m=hi?Math.max(...a):Math.min(...a);return a.map(x=>x==m&&new Set(a).size>1)};
+ const row=(l,f,hl)=>`<tr><th>${l}</th>${v(f).map((x,i)=>`<td class="${hl&&hl[i]?'best':''}">${x}</td>`).join('')}</tr>`;
+ const num=(l,k,hi)=>{const b=best(p=>D[p.n][k],hi);return `<tr><th>${l}</th>${ps.map((p,i)=>`<td class="${b[i]?'best':''}"><span class="mb" style="width:${D[p.n][k]*14}px"></span>${D[p.n][k]}/5</td>`).join('')}</tr>`};
+ const ds=v(p=>D[p.n][0]),mn=Math.min(...ds),mx=Math.max(...ds),nm=x=>ps.filter(p=>D[p.n][0]==x).map(p=>p.n).join(', ');
+ C.innerHTML=`<div class="cm"><h3>Compare</h3><p>${mn!=mx?`Easiest: <b>${nm(mn)}</b> · Hardest: <b>${nm(mx)}</b>`:'All selected poses have the same difficulty.'}</p>
+<table><tr><th></th>${ps.map(p=>`<th style="color:#c4491f;font:400 1.05rem Georgia,serif;text-transform:none;letter-spacing:0">${p.n}</th>`).join('')}</tr>
+${num('Difficulty',0,false)}${row('Level',p=>DL[D[p.n][0]])}${num('Strength',1,true)}${num('Flexibility',2,true)}${num('Balance',3,true)}${num('Calm',4,true)}
+${row('Tier',p=>TL[p.t])}${row('Start week',p=>'wk '+p.w+(p.a?' (add-on)':''),best(p=>p.w,false))}${row('Per side',p=>PS.includes(p.n)?'Yes':'No')}
+${row('Levels',p=>p.L.length||'Single hold')}${row('Level 1',p=>p.L[0]||p.h)}${row('Top level',p=>p.L.length?p.L[p.L.length-1]:p.h)}
+${row('Benefits',p=>p.b)}${row('Take care',p=>D[p.n][5])}${row('Where',p=>p.wh)}</table></div>`}
+$('hc').innerHTML=['posture','digestion','balance','flexibility','calm','energy','strength','easy','hard','all'].map(c=>`<button class="ch">${c=='all'?'Browse all':c}</button>`).join('');
+$('hc').onclick=e=>{if(e.target.tagName!='BUTTON')return;const t=e.target.textContent;$('hq').value=t=='Browse all'?'all':t;run()};
+$('hq').oninput=run;$('hgo').onclick=run;$('hs').onchange=run;
+})();
+
+(function(){
+const T=$('tt'),KW='ymw',DN=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],SD={1:'A',4:'A',2:'B',5:'B',3:'C',6:'C'},TD=new Date().getDay();
+let wk=1,day=TD,dn=new Set(),act=null,ses={t:0,iv:null},tot=0,cur=0,view='f',fd=false,its=[];
+try{wk=+localStorage.getItem(KW)||1}catch(e){}
+const mm=x=>Math.floor(x/60)+':'+String(x%60).padStart(2,'0'),ix=n=>P.findIndex(p=>p.n==n);
+T.innerHTML='<h2>Today</h2><div id="tn"></div><div id="tb"></div>';
+const lvl=i=>{const n=P[i].L.length;for(let j=1;j<=n;j++)if(!s[i+''+j])return j-1;return n-1};
+const setW=v=>{wk=v;try{localStorage.setItem(KW,wk)}catch(e){}render()};
+function hdr(){const O=[1,2,3,4,5,6,0],sl=d=>d==0?'Rest':wk<4?'Base':'Set '+SD[d],st=(id,v)=>`<div class="st"><button id="${id}m" aria-label="Previous">‹</button><span>${v}</span><button id="${id}p" aria-label="Next">›</button></div>`;
+ $('tn').innerHTML=`<div class="rw">${st('w','Week '+wk)}${st('d',DN[day].slice(0,3)+' · '+sl(day))}</div>`;
+ $('wm').onclick=()=>{if(wk>1)setW(wk-1)};$('wp').onclick=()=>{if(wk<26)setW(wk+1)};
+ const mv=k=>{day=O[(O.indexOf(day)+k+7)%7];render()};$('dm').onclick=()=>mv(-1);$('dp').onclick=()=>mv(1)}
+function parse(t,p){const side=PS.includes(p.n)||/\/\s*side|each side/i.test(t)?2:1;let m;
+ if(m=t.match(/(\d+)\s*x\s*(\d+)\s*breaths/i))return{k:'t',sets:+m[1],n:+m[2],u:'br',side};
+ if(m=t.match(/(\d+)(?:\s*[–-]\s*\d+)?\s*min/i))return{k:'t',sets:1,n:+m[1]*60,u:'s',side};
+ if(m=t.match(/(\d+)(?:\s*[–-]\s*\d+)?\s*s\b/i))return{k:'t',sets:1,n:+m[1],u:'s',side};
+ if(m=t.match(/(\d+)(?:\s*[–-]\s*\d+)?\s*breaths/i))return{k:'t',sets:1,n:+m[1],u:'br',side};
+ if(m=t.match(/(\d+)\s*(?:slow\s*)?(?:rounds|reps)/i)||t.match(/x\s*(\d+)/i)||t.match(/^(\d+)\b/))return{k:'c',n:+m[1],side};
+ if(m=t.match(/(\d+)\s*$/))return{k:'t',sets:1,n:+m[1],u:'br',side};
+ return{k:'n',side}}
+function list(){if(day==0)return[];
+ if(wk<4)return['Cat-cow','Sun salutation','Downward dog','Warrior II','Chair','Malasana','Seated twist','Bridge',"Child's pose",'Nadi shodhana','Savasana'];
+ return['Cat-cow','Sun salutation',...SS[SD[day]],'Nadi shodhana','Savasana'].filter(n=>P[ix(n)].w<=wk)}
+function sesGo(){if(ses.iv||dn.size>=tot)return;ses.iv=setInterval(()=>{ses.t++;$('tsx').textContent=mm(ses.t)},1000);$('tss').textContent='Pause'}
+function sesStop(){clearInterval(ses.iv);ses.iv=null;const b=$('tss');if(b)b.textContent=ses.t?'Resume':'Start session'}
+function upd(){const all=tot&&(dn.size>=tot||fd);
+ $('tdn').textContent=view=='f'?`Pose ${Math.min(cur+1,tot)} of ${tot} · ${dn.size} done`:`${dn.size}/${tot} done`;$('tbar').style.width=(tot?100*dn.size/tot:0)+'%';
+ $('sp').querySelectorAll('button').forEach((b,k)=>{b.className=(k==cur?'c ':'')+(dn.has(k)?'d':'')});
+ const nx=$('nx');if(nx)nx.textContent=cur>=tot-1?'Finish':dn.has(cur)?'Next ›':'Done & Next ›';
+ const S=$('tsm');if(all){sesStop();S.hidden=false;S.innerHTML=`<b>Session complete · ${mm(ses.t)}</b><p>Passed 3 clean sessions on a pose? Tick its next level on Progress.</p><button class="pill on" onclick="go(5)">Open Progress</button> <button class="pill" id="rs2">Restart</button>`;$('rs2').onclick=render}else S.hidden=true}
+function item(n,k){const i=ix(n),p=P[i],j=p.L.length?lvl(i):-1,t=j>=0?p.L[j]:p.h,tp=parse(t,p),d=document.createElement('div');d.className='ti';
+ d.innerHTML=`<div class="fw">${p.f.map(f=>fig(f,p.f.length>1?'20 -4 70 80':'0 0 120 80',BR.includes(p.n))).join('')}</div><div class="tf"><h3>${k+1}. ${p.n}<small>wk ${p.w}${p.n=='Eagle'?'+ · optional':''}</small></h3>
+<div>${j>=0?`<span class="bd">L${j+1}</span>`:''}${tp.side>1?'<span class="bd">each side</span>':''}<b>${t}</b></div>${s[i+'L']?'':'<p class="wh">New? Learn the form first, then tick Learned on Progress.</p>'}
+<div class="tm"></div><p class="sf">${p.sf}</p><div class="ar"><label class="ck"><input type="checkbox"> Done</label><button class="lk">Cues</button></div></div><ol hidden>${p.st.split('|').map(x=>`<li>${x}</li>`).join('')}</ol>`;
+ const cb=d.querySelector('input'),tm=d.querySelector('.tm'),fin=()=>{cb.checked=true;dn.add(k);upd()};
+ cb.onchange=()=>{cb.checked?dn.add(k):dn.delete(k);upd()};
+ d.querySelector('.lk').onclick=()=>{const o=d.querySelector('ol');o.hidden=!o.hidden};
+ if(tp.k=='c'){let c=0;tm.innerHTML=`<button class="pill on">+1 rep</button><span class="tr c">0/${tp.n}</span>`;
+  tm.querySelector('button').onclick=()=>{sesGo();if(c>=tp.n)c=0;c++;tm.querySelector('span').textContent=c+'/'+tp.n;if(c>=tp.n)fin()}}
+ if(tp.k=='t'){const sd=tp.side>1?['Left','Right']:[''],per=tp.u=='br'?tp.n*5:tp.n,segs=[];
+  for(let a=1;a<=tp.sets;a++)for(const x of sd){if(segs.length)segs.push({l:'Rest',d:8,r:1});segs.push({l:[tp.sets>1?`Set ${a}/${tp.sets}`:'',x].filter(Boolean).join(' · ')||'Hold',d:per,u:tp.u,n:tp.n})}
+  tm.innerHTML=`<button class="pill on">Start</button><button class="pill">Reset</button><span class="tr"></span><div class="bar"><i></i></div>`;
+  const [b,rb]=tm.querySelectorAll('button'),r=tm.querySelector('.tr'),bi=tm.querySelector('i');let idx=0,left=segs[0].d,iv=null;
+  const show=()=>{const g=segs[Math.min(idx,segs.length-1)];r.textContent=`${g.l} · ${mm(left)}`+(g.u=='br'?` · breath ${Math.min(g.n,Math.floor((g.d-left)/5)+1)}/${g.n}`:'');bi.style.width=100*(g.d-left)/g.d+'%'};
+  const stop=()=>{clearInterval(iv);iv=null;if(act===stop)act=null;b.textContent=idx>=segs.length?'Again':(idx||left<segs[0].d)?'Resume':'Start'};
+  const rst=()=>{stop();idx=0;left=segs[0].d;b.textContent='Start';show()};
+  const tick=()=>{left--;if(left<=0){idx++;if(idx>=segs.length){stop();left=0;idx=segs.length-1;show();idx=segs.length;b.textContent='Again';fin();return}left=segs[idx].d}show()};
+  b.onclick=()=>{if(iv){stop();return}if(idx>=segs.length)rst();if(act)act();act=stop;sesGo();iv=setInterval(tick,1000);b.textContent='Pause'};
+  rb.onclick=rst;show();tm._stop=stop}
+ return d}
+function mark(k){dn.add(k);its[k].querySelector('input').checked=true}
+function draw(){const TL=$('tl'),f=view=='f';TL.className='tl'+(f?' foc':'');TL.innerHTML='';
+ if(f&&!fd)TL.appendChild(its[cur]);else if(!f)its.forEach(x=>TL.appendChild(x));
+ $('tv').textContent=f?'View all':'Focus mode';
+ $('sp').hidden=$('nv2').hidden=!f||fd;
+ $('sp').innerHTML=its.map((_,k)=>`<button data-k="${k}" aria-label="Pose ${k+1}"></button>`).join('');
+ $('nv2').innerHTML='<button class="pill" id="bk">‹ Back</button><button class="pill on" id="nx"></button>';
+ $('bk').disabled=!cur;
+ $('bk').onclick=()=>{if(act)act();cur--;draw()};
+ $('nx').onclick=()=>{if(act)act();mark(cur);if(cur>=tot-1){fd=true;draw();return}cur++;draw()};
+ upd()}
+function render(){if(act)act();sesStop();ses={t:0,iv:null};dn=new Set();fd=false;cur=0;hdr();
+ const L=list(),B=$('tb'),set=SD[day];tot=L.length;
+ const nw=wk>=4?P.filter(p=>p.w==wk).map(p=>p.n).join(', '):'';
+ B.innerHTML=(nw?`<p class="nw">New this week: <b>${nw}</b></p>`:'')+(day==0?'<p>Rest day: rest or gentle stretching.</p>':`<div class="ts"><b id="tsx">0:00</b><button class="pill on" id="tss">Start session</button><button class="lk" id="tv"></button></div><div class="pg"><span class="wh" id="tdn"></span><div class="sp" id="sp"></div></div><div class="bar"><i id="tbar"></i></div><div id="tsm" class="tsm" hidden></div><div class="tl" id="tl"></div><div class="nv2" id="nv2"></div>`+(wk>=4?'<h3>Daily habits</h3><p>Morning, after water: wind-relieving, 5 breaths/side.</p><p>After meals: vajrasana, 5 min.</p>':''));
+ if(day==0)return;
+ its=L.map((n,k)=>item(n,k));
+ $('tss').onclick=()=>{if(ses.iv)sesStop();else sesGo()};
+ $('tv').onclick=()=>{if(act)act();view=view=='f'?'a':'f';draw()};
+ $('sp').onclick=e=>{const b=e.target.closest('button');if(!b)return;if(act)act();cur=+b.dataset.k;draw()};
+ draw()}
+$('nv').addEventListener('click',e=>{if(e.target.tagName=='BUTTON')setTimeout(()=>{if(T.classList.contains('on')&&!act&&!ses.iv&&!ses.t&&!dn.size)render()},0)});
+render();
+})();
+var md='t';
+const U=()=>{let A=0,L=0,lv=[0,0,0],lt=[0,0,0],T={};
+P.forEach((p,i)=>{const t=T[p.t]=T[p.t]||{n:0,a:0,l:0,m:0},a=s[i+'L']?1:0;A+=a;t.n++;t.a+=a;p.L.forEach((_,j)=>{const v=s[i+''+(j+1)]?1:0;lt[j]++;t.m++;t.l+=v;L+=v;lv[j]+=v})});
+const LT=lt[0]+lt[1]+lt[2],B=(a,b)=>`<div class="bar"><i style="width:${100*a/b}%"></i></div>`;
+let h=`<div class="big"><div><b>${A}</b>/${P.length} learned · ${P.length-A} left${B(A,P.length)}</div><div><b>${L}</b>/${LT} levels cleared · ${LT-L} left${B(L,LT)}</div></div><div class="big">${lv.map((v,j)=>`<div>Level ${j+1}: ${v}/${lt[j]} · ${lt[j]-v} left${B(v,lt[j])}</div>`).join('')}</div>
+<div class="no"><button class="pill ${md=='t'?'on':''}" onclick="md='t';U()">By tier</button><button class="pill ${md=='l'?'on':''}" onclick="md='l';U()">By level</button></div>`;
+if(md=='t')['1','2','3','4','B','X'].forEach(t=>{const o=T[t];h+=`<div class="r rh" style="margin-top:22px"><b>${TL[t]}<small>Learned ${o.a}/${o.n} · Levels ${o.l}/${o.m}</small></b>${['Learned','L1','L2','L3'].map(x=>`<span>${x}</span>`).join('')}</div>`+P.map((p,i)=>p.t==t?`<div class="r"><span>${p.n}</span>${['L',1,2,3].map(k=>k=='L'||k<=p.L.length?cb(i,k):'<i></i>').join('')}</div>`:'').join('')});
+else [['L','Learned'],[1,'Level 1'],[2,'Level 2'],[3,'Level 3']].forEach(([k,n])=>{const v=P.map((p,i)=>[p,i]).filter(([p])=>k=='L'||k<=p.L.length);h+=`<div class="r l rh" style="margin-top:22px"><b>${n}<small>${v.filter(([,i])=>s[i+''+k]).length}/${v.length}</small></b><span></span></div>`+v.map(([p,i])=>`<div class="r l"><span>${p.n}</span>${cb(i,k)}</div>`).join('')});
+h+=`<h4>Week tracker</h4>`+Array.from({length:26},(_,n)=>{n++;const a=P.filter(p=>p.a&&p.w==n).map(p=>p.n+(n==12?' (optional)':'')).join(' + ');return `<div class="r l"><span><b>Week ${n}</b>${a?' · add: '+a:''}${n==4?'<br><small style="margin:0">First used in sets: cobra, plank, tree, low lunge, forward fold</small>':''}</span>${cb('w',n)}</div>`}).join('')+`<p class="no" style="margin-top:28px"><button class="pill" onclick="if(confirm('Reset all progress?')){s={};sv();document.querySelectorAll('#t2 input').forEach(x=>x.checked=false);U()}">Reset progress</button></p>`;
+$('t3').innerHTML='<h2>Progress</h2>'+h};
+U();
+document.addEventListener('change',e=>{const c=e.target,k=c.dataset.k;if(!k)return;c.checked?s[k]=1:delete s[k];sv();document.querySelectorAll('#t2 input[data-k="'+k+'"]').forEach(x=>x.checked=c.checked);U()});
+const go=i=>{[...$('nv').children].forEach((b,j)=>b.classList.toggle('on',i==j));document.querySelectorAll('.tab').forEach((t,j)=>t.classList.toggle('on',i==j));scrollTo(0,0)};
+$('nv').innerHTML=['Home','Today','Start','Schedule','Poses','Progress'].map((x,i)=>`<button onclick="go(${i})">${x}</button>`).join('');go(0);
+</script></body></html>
